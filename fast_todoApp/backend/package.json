@@ -12,16 +12,17 @@
     "license": "ISC",
     "dependencies": {
         "sequelize": "latest",
-        "express": "4.17.1",
-        "express-validator": "6.10.0",
-        "jsonwebtoken": "8.5.1",
+        "express": "latest",
         "cors": "latest",
         "mysql": "latest",
-        "mysql2": "latest"
+        "mysql2": "latest",
+        "express-validator": "6.10.0",
+        "jsonwebtoken": "8.5.1"
     },
     "devDependencies": {
+        "sequelize": "latest",
+        "eslint": "7.32.0",
         "bcrypt": "5.0.1",
-        "express": "4.17.1",
-        "sequelize": "6.6.5"
+        "express": "4.17.1"
     }
 }

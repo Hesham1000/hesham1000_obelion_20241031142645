@@ -1,0 +1,33 @@
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.task-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.task-description {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.task-due-date,
+.task-priority {
+    font-size: 12px;
+    color: #666;
+}
